@@ -1,0 +1,78 @@
+body{
+    /*Fonte da letras*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*cor de fundo*/
+    background: #cccc;
+    /*margem*/
+    margin: 0;
+    
+}
+/*Classe Inicio*/
+.Inicio{
+    /*adicionou uma imagem*/
+    background-image: url(../IMG/bg-3.jpg);
+/*Tamanho da imagem*/
+    height: 500px;
+    /*Posicionamento da imagem*/
+    background-position: right center;
+/*Controla o quanto imagem vai ocupar dentro do espaço*/
+    background-size: cover;
+    border: 1px solid transparent;
+}
+
+.Inicio nav ul{
+    text-align: right;
+    margin: 35px 50px 0 0;
+}
+
+.Inicio nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+}
+.Inicio nav a{
+    display: block;
+    /*O ultimo numero do rgba é a transparencia*/
+    background-color: rgba(0,0,0,0.2);
+    /*Para que a cor ocupe toda a borda*/
+    padding: 10px;
+    color: white;
+    /*Tirar o subilinhado*/
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    /*Espaçoi entre as letras*/
+    letter-spacing: 2px;
+}
+.Inicio nav a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Titulo{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 145px;
+}
+.Titulo h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    /* O primeiro valor é deslocado para direita e o segundo para esquerda e o ultimo é a cor*/
+    text-shadow: 8px 12px 8px #1c1a1a;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.espaço-cards{
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+}
+footer {
+    margin-top: 75px;
+    padding: 25px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size:15px;
+}
