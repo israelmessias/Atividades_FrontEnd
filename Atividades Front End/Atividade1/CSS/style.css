@@ -41,7 +41,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    /*Espaçoi entre as letras*/
+    /*Espaço entre as letras*/
     letter-spacing: 2px;
 }
 .Inicio nav a:hover{
@@ -59,15 +59,41 @@ body{
     /* O primeiro valor é deslocado para direita e o segundo para esquerda e o ultimo é a cor*/
     text-shadow: 8px 12px 8px #1c1a1a;
 }
+.Titulo p{
+    /*Os primeiros valores é para cor e o ultimo é transparência*/
+    background-color:rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 15px;
+    border-bottom:2px solid white;
+}
+
 main{
     width: 80%;
     margin: auto;
 }
 .espaço-cards{
     background-color: white;
-    padding: 15px;
+    /*Diminuir o padding para ficar a parte de fora mais justa*/
+    padding: 2px;
     margin: 15px;
 }
+.cards{
+    /**/
+    display:inline-table;
+    width: 32%;
+    margin: 5px;
+}
+.cards img{
+    /*Tamanho da imagem*/
+    width: 100%;
+    margin-bottom: 0%;
+}
+.cards p{
+    background-color: rgba(0,0,0, 0.8);
+    margin-top: 0%;
+    padding: 3%;
+}
+
 footer {
     margin-top: 75px;
     padding: 25px;

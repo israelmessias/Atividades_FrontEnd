@@ -9,3 +9,12 @@
     border: 2px solid red;
     margin: 5px;
 }
+/*A movimentou a div para direita, e acaba mudando o fluxo nas div abaixo*/
+#div2{
+    float: right;
+}
+/*Porem o clear não responde essas ordens*/
+#div3{
+    background-color: yellow;
+    clear:both;
+}
