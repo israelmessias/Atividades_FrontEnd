@@ -1,0 +1,33 @@
+body{
+    /*Zero Margin*/
+    margin:0;
+}
+header {
+    /**/
+    background-color:#25344b;
+    height: 70px;
+}
+header img{
+    display: inline-block;
+    margin:15px auto;
+    position: relative;
+    left: 250px;
+    width: 145px;
+}
+.menu ul{
+    text-align: right;
+    margin: -50px auto;
+    clear: none;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+}
+.menu a{
+    font-size: 17px;
+    color:#6588bd;
+    letter-spacing: 2px;
+    display: block;
+    margin-right:38px;
+    text-decoration: none;
+}
