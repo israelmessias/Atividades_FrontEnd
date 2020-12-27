@@ -5,7 +5,7 @@ body{
     background: #cccc;
     /*margem*/
     margin: 0;
-    
+     
 }
 /*Classe Inicio*/
 .Inicio{
@@ -39,6 +39,7 @@ body{
     color: white;
     /*Tirar o subilinhado*/
     text-decoration: none;
+    /*Letras Maiúsculas*/
     text-transform: uppercase;
     font-size: 12px;
     /*Espaço entre as letras*/
@@ -80,7 +81,9 @@ main{
 .cards{
     /**/
     display:inline-table;
+    /*Largura da borda da imagem*/
     width: 32%;
+    /*Seperação entre as imagens*/
     margin: 5px;
 }
 .cards img{
@@ -89,16 +92,21 @@ main{
     margin-bottom: 0%;
 }
 .cards p{
-    background-color: rgba(0,0,0, 0.8);
+    /*Alinhei a palavras para o centro*/
+    text-align: center;
+    /*Preto, meio transparente*/
+    background-color: rgba(0,0,0, 0.5);
     margin-top: 0%;
     padding: 3%;
 }
 
 footer {
-    margin-top: 75px;
-    padding: 25px;
-    background-color: gray;
+    /**/
+    margin-top: 50px;
+    padding: 5px;
+    background-color: rgb(172, 172, 172);
     text-align: center;
     color: white;
-    font-size:15px;
+    font-size:14px;
+    text-transform: uppercase;
 }
