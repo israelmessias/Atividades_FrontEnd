@@ -1,0 +1,33 @@
+body{
+    font-size:20px;
+}
+#centro-oeste{
+    border: 2px solid black;
+    
+    width: 20%;
+/* Exibe o conteúdo de forma vazada, fora da caixa de conteúdo */
+    overflow: visible;
+}
+#norte{
+    border: 2px solid black;
+    width: 20%;
+    /* Esconde o conteúdo excedente */
+    overflow: hidden;
+}
+#nordeste{
+    border: 2px solid black;
+    width: 20%;
+    /* Sempre exibe barras de rolagem */
+    overflow: scroll;
+}
+#sul{
+    border: 2px solid black;
+    width: 20%;
+    overflow: auto;
+}
+#sudeste{
+    border: 2px solid black;
+    width: 20%;
+    /* Exibe barras de rolagem apenas se necessário */
+    overflow: auto;
+}

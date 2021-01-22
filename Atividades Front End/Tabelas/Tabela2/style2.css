@@ -1,0 +1,11 @@
+td{
+    border:1px solid black;
+}
+table{
+    border-collapse:collapse;/*Tabela sem separação*/
+    width: 80%;
+    margin: auto;
+}
+td{
+    text-align: center;
+}

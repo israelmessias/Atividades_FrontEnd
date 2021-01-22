@@ -2,12 +2,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="./css/style.css"> 
+        <link rel="stylesheet" type="text/css" href="../Tabelas/style.css"> 
         <title>Tabelas</title>
     </head>
     <body>
         <h1>Regiões do Brasil</h1>
-        <div class = div1>
+        <div class = regiões>
             <!--Um uso comum para este elemento é para implementar um glossário
                  ou exibir metadados(uma lista de pares chave e valor).-->
             <dl>
@@ -42,7 +42,7 @@
             </dl>
         </div>
         <br>
-        <div class = div2>
+        <div class = estados>
             <ul id = centro-oeste>
                 <li>Centro-Oeste</li>
                 <ol>
@@ -86,7 +86,7 @@
                     <li>Santa Catarina</li>
                 </ol>
             </ul>
-            <ul>
+            <ul id  = sudeste>
                 <li>Sudeste</li>
                 <ol>
                     <li>Espirito Santos</li>
@@ -95,6 +95,102 @@
                     <li>São Paulo</li>
                 </ol>
             </ul>
+        </div>
+        <div class = capitais>
+            <!--Criar tabelas-->
+            <table id = cap_centro_oeste>
+                <!--Cria colunas-->
+                <tr>
+                    <!--Cria as linhas-->
+                    <td>Goias</td> <td>Goiania</td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td> <td>Brasilia</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso</td> <td>Cuiaba</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso do Sul</td>  <td>Campo Grande</td>
+                </tr>
+            </table>
+            <table id = cap_norte>
+                <tr>
+                    <td>Acre</td> <td>Rio Branco</td>
+                </tr>
+                <tr>
+                    <td>Amapa</td> <td>Macapa</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td> <td>Manaus</td>
+                </tr>
+                <tr>
+                    <td>Pará</td> <td>Belem</td>
+                </tr>
+                <tr>
+                    <td>Rondônia</td> <td>Porto Velho</td>
+                </tr>
+                <tr>
+                    <td>Roraima</td> <td>Boa Vista</td>
+                </tr>
+                <tr>
+                    <td>Tocantins</td> <td>Palmas</td>
+                </tr>
+            </table>
+            <table class = cap_nordeste>
+                <tr>
+                    <td>Alagoas</td>  <td>Maceio</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td> <td>Salvador</td>
+                </tr>
+                <tr>
+                    <td>Ceara</td> <td>Fortaleza</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td> <td>São Luis</td>
+                </tr>
+                <tr>
+                    <td>Paraiba</td> <td>João Pessoa</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td> <td>Recife</td>
+                </tr>
+                <tr>
+                    <td>Piaui</td> <td>Teresina</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Norte</td>
+                </tr>
+                <tr>
+                    <td>Sergipe</td> <td>Aracaju</td>
+                </tr>
+            </table>
+            <table class = cap_sul>
+                <tr>
+                    <td>Parana</td> <td>Curitiba</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                </tr>
+            </table>
+            <table class = cap_sudeste>
+                <tr>
+                    <td>Espirito Santo</td> <td>Vítoria</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td> <td>Belo Horizonte</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td> <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td> <td>São Paulo</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
