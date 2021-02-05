@@ -8,11 +8,25 @@
     <body>
         <h1>FORMULARIO</h1>
         <!--Para formulario-->
-        <form>
+        <form action="http://google.com/search" method="get">
             <!--Entrada do tipo de texto-->
-            <input type="text">
+            <input type="text" name="ok">
             <!--Envia a mensagem-->
             <input type="submit" value="ok">
+        </form>
+
+        <br><br><br>
+        <form>
+        <fieldset>
+            <!--Legenda-->
+            <legend>Login</legend>
+        <label for="log">Digite seu Usuario</label>
+        <input type="text" name="text" id="log">
+        <input type="submit" value="ok">
+        <label for="pass">Digite sua Senha</label>
+        <input type="password" name="text" id="pass">
+        <input type="submit" value="ok">
+        </fieldset>
         </form>
     </body>
 </html>
