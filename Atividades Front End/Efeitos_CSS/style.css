@@ -1,0 +1,29 @@
+html, body{
+    /*Faz o HTML e Body*/
+    height: 100%;
+}
+body{
+    /*Faz as cores entrar*/
+    background-image: linear-gradient(orange, yellow);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    /*Semelhante ao box-shadow, porem esse funciona em textos*/
+    text-shadow: 2px -8px 0 rgb(59, 56, 56);
+}
+#efeitos-quadrado{
+    /*Foi feito um quadrado*/
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    /*Arredonda as pontas do quadrado
+    Essa função aredonda */
+    border-radius: 25px 10px;/*Ele aredonda as pontas sentido horario*/
+    /*Ele esplha o eixo x, o segundo valor eixo y, o terceiro esfumaça, o quarto é uma cor*/
+    box-shadow: 10px 2px 2px rgb(48, 0, 48);
+    /*Valores negativo  muda o lado da sombra || Ex:  box-shandow:-25 -10px 2px puple;
+    Tambem da para colocar uma sombra dentro da sombra
+    Ex: box-shadow: 10px 10px 2px red,  10px 10px 2px red;*/
+}

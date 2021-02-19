@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'rockwell';
+    src:url(../Fontes-Customizadas/rockwell.otf); 
+}
+/*h1{
+    font-family:;
+}*/.text1{
+    font-family: rockwell;
+}
+.text2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
